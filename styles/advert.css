@@ -1,0 +1,82 @@
+.advert {
+  position: relative;
+  margin-top: 20px;
+  padding: 0 60px 0;
+  
+  display: flex;
+  justify-content: space-between;
+  
+  background: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.advert_desc {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .advert_title {
+    font-size: 46px;
+    line-height: 56px;
+    margin: 48px 0 35px;
+  }
+  
+  .advert_img {
+    width: 180px;
+    height: 100%;
+    margin-right: 3%;
+  }
+  
+  .advert_body-text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #515759;
+    margin: 0;
+  }
+
+  .advert_link {
+    font-size: 15px;
+    line-height: 18px;
+    color: #1890ff;
+    margin: 12px 12px 38px;
+  }
+  
+  
+  .advert_btn {
+    width: 128px;
+    height: 40px;
+    font-size: 18px;
+    line-height: 22px;
+    background: #1890ff;
+    border-radius: 8px;
+    color: #fff;
+    margin-bottom: 50px;
+  }
+  
+  @media (max-width: 800px) {
+    .advert {
+        padding: 0px 30px 0px;
+    }
+
+  .advert_title {
+    font-size: 46px;
+    line-height: 56px;
+    margin: 48px 0 35px;
+  }
+  
+  .advert_img {
+    width: 180px;
+    height: 100%;
+    margin-right: 3%;
+  }
+
+  .advert_link {
+    font-size: 15px;
+    line-height: 18px;
+    color: #1890ff;
+    margin: 12px 12px 38px;
+  }
+}

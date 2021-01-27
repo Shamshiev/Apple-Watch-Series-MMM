@@ -1,0 +1,27 @@
+@import "./header.css";
+@import "./advert.css";
+@import"./catalog.css";
+@import"./footer.css";
+body {
+    margin: 0;
+}
+
+a,button {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    background: none;
+}
+
+.mainCont {
+    min-height: 100vh;
+    background: #e5e5e5;
+     padding: 60px;
+     font-family: 'Inter', sans-serif;
+}
+
+@media (max-width: 450px) {
+    .mainCont {
+        padding: 32px 35px 24px;
+    }
+}
